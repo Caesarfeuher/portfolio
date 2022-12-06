@@ -31,9 +31,9 @@ function App() {
 
      <div className='app__footer'>
       <img className='app__footer__img' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReMTSKpeYmzl4uJs1Ekuz7ldNW9B2v7WWhBg&usqp=CAU' alt=''/>
-      <img className='app__footer__img'src='./slack-logo.jpg'/>
-      <img className='app__footer__img'src='./tiktok-clone.jpg'/>
-      <img className='app__footer__img'src='./spotify-clone.jpg'/>
+      <img className='app__footer__img'src='./slack-logo.jpg' alt=''/>
+      <img className='app__footer__img'src='./tiktok-clone.jpg'alt=''/>
+      <img className='app__footer__img'src='./spotify-clone.jpg'alt=''/>
      </div>
 
      <div className='app__about'>
@@ -45,9 +45,10 @@ function App() {
           <p>My preffered weapons are:</p>
           <br/>
           <div className='projects__li'>
-        <div className='projects__li1'>
+         <div className='projects__li1'> 
         <li>React.js</li>    
-        <li>Javascript(Node.js) </li>
+        <li>Javascript (Node.js) </li>
+        
         </div>
        <div className='projects__li1'>
        <li>Firebase</li>
@@ -199,19 +200,17 @@ function App() {
         training
       </h2>
       <p>
-      I started learning the fundamentals of web development <br/>
-      utilizing it in building basic projects like the Supreme Court of  <br/>
-      Nigeria clone and some javascript games .
+      I started learning the fundamentals of web development utilizing it in building basic projects like the Supreme Court of Nigeria clone and some javascript games .
       </p>
       <hr/>
       <br/><br/><br/><br/><br/>
       <h6>2019-2020</h6>
       <h2>React / Node.js</h2>
       <p>
-      After learning thoroughly the fundamentals of Html, Css and  <br/>
-      Javascript I researched on some front-end frame works and <br/>
-      chose to learn and utilize React.js in my web development  <br/>
-      subsequently including Node.js in order to achieve my goal of  <br/>
+      After learning thoroughly the fundamentals of Html, Css and  
+      Javascript I researched on some front-end frame works and 
+      chose to learn and utilize React.js in my web development  
+      subsequently including Node.js in order to achieve my goal of  
       being a professional and seasoned software developer.
       </p>
       <hr/>
@@ -221,10 +220,10 @@ function App() {
       <div className='experience__content'>
       <h1>HiiT</h1>
       <p>
-      After my learning I enrolled for a web-development class<br/>
-      (full-stack) to get more training and various ideas to solve<br/>
-       multiple and complex problems and to get a recognized<br/>
-        professional certificate for the courses / skill acquired <br/>
+      After my learning I enrolled for a web-development class
+      (full-stack) to get more training and various ideas to solve
+       multiple and complex problems and to get a recognized
+        professional certificate for the courses / skill acquired 
         after fulfilling the required criteria.
       </p>
       </div>
@@ -239,8 +238,7 @@ function App() {
         Working With Me
       </h1>
       <p>
-      Daniel is phenomenal developer. He is extremely fast, <br/>
-      responsive, and very resourceful. I absolutely love working <br/>
+      Daniel is phenomenal developer. He is extremely fast,responsive, and very resourceful. I absolutely love working 
       with him.
       </p>
       <br/>
