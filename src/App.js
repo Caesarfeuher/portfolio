@@ -9,6 +9,7 @@ import './tiktok-.jpg';
 import './slack-logo.jpg'
 import './tiktok-clone.jpg'
 import './spotify-clone.jpg'
+import './weather.png'
 
 function App() {
   return (
@@ -191,6 +192,36 @@ function App() {
         </button>
        </a>
        
+       <br/><br/>
+       <div className='app__projects__container'>
+      <img className='project__img' src='./weather.png'alt='' />
+      <div className='project__content'>
+      <h2>Weather app</h2>
+      <br/>
+       <p>
+       This weather app displays current weather and gives daily forcast for a week.
+       </p>
+      </div>
+      </div>
+      <br/><br/>
+       <div className='projects__li'>
+        <div className='projects__li1'>
+        <li>React.js</li>
+       <li>Css</li>
+        </div>
+       <div className='projects__li1'>
+       <li>Node.js</li>
+       <li>firebase</li>
+       </div>
+       </div>
+      <br/><br/>
+       <a href='https://weather-app-72083.web.app'target='_blank'rel='noopener noreferrer'>
+        <button className='project__button'>
+          View Demo
+        </button>
+       </a>
+
+
       <hr/>
      </div>
      <div className='app__experience'>
