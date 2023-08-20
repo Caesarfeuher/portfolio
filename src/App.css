@@ -68,7 +68,7 @@ html,body{
 .about__img{
   height: auto;
   width:50%;
-  border-radius: 200px;
+  border-radius: 350px;
 } 
 .app__about > h1{
  text-align: left;
@@ -92,6 +92,11 @@ html,body{
   color:lightblue;
   border-color:aqua ;
   max-width: 180px;
+ }
+ 
+ .link-buttons{
+  justify-content: space-between;
+  padding-left: 10px;
  }
  .app__projects{
   margin-top: 80px;
@@ -241,6 +246,11 @@ hr{
 
 
 @media only screen and (max-width: 1024px) {
+  .about__img{
+    height: auto;
+    width:50%;
+    border-radius: 200px;
+  } 
   .app__projects__container{
     flex-direction: column;
   }
@@ -251,6 +261,11 @@ hr{
 }
 
 @media screen and (max-width: 1400px) and (min-width: 1047px) {
+  .about__img{
+    height: auto;
+    width:50%;
+    border-radius: 350px;
+  } 
 .app__footer__img{
     height:60%;
     max-height:auto
@@ -263,6 +278,11 @@ hr{
   }
 }
 @media screen and (max-width: 1046px) and (min-width:845px) {
+  .about__img{
+    height: auto;
+    width:50%;
+    border-radius: 350px;
+  } 
   .app__footer__img{
       height:40%;
       max-height:auto
@@ -275,6 +295,11 @@ hr{
     }
   }
   @media screen and (max-width: 844px) and (min-width:644px) {
+    .about__img{
+      height: auto;
+      width:50%;
+      border-radius: 200px;
+    } 
     .app__footer__img{
         height:30%;
         max-height:auto
@@ -287,6 +312,11 @@ hr{
       }
     }
     @media screen and (max-width: 644px) and (min-width:392px) {
+      .about__img{
+        height: auto;
+        width:50%;
+        border-radius: 200px;
+      } 
       .app__footer__img{
         height:20%;
         max-height:auto
@@ -299,6 +329,11 @@ hr{
       }
     }
     @media screen and (max-width: 392px) and (min-width:291px) {
+      .about__img{
+        height: auto;
+        width:50%;
+        border-radius: 200px;
+      } 
       .app__footer__img{
         height:25%;
         max-height:auto
@@ -311,6 +346,11 @@ hr{
       }
     }
     @media screen and (max-width: 291px) and (min-width:100px) {
+      .about__img{
+        height: auto;
+        width:50%;
+        border-radius: 200px;
+      } 
       .app__footer__img{
         height:10%;
         max-height:auto
@@ -323,6 +363,11 @@ hr{
       }
     }
     @media only screen and (max-width: 1024px) {
+      .about__img{
+        height: auto;
+        width:50%;
+        border-radius: 200px;
+      } 
     .experience__img{
       height: 700px;
       margin-bottom: 40px;

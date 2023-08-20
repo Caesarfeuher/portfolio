@@ -23,11 +23,25 @@ function App() {
          currently i'm focused on empowering people to learn how to
          <br />
          code & change their future.</p>
+        
          <a href='https://linkedin.com/in/akrasi-daniel-11a889244'target='_blank'rel='noopener noreferrer'>
-          <button>
+          <button className='buttons'>
             Do you want to work with me?
           </button>
          </a>
+
+         <a href='https://docs.google.com/document/d/1WEtl4YQw827XfwMF3fkTiPCo5ibP3DJYJJ80LdUi04E/edit?usp=sharing'target='_blank'rel='noopener noreferrer'>
+          <button className='buttons'>
+          Click to access my bio
+          </button>
+         </a>
+
+         <a href='https://drive.google.com/file/d/1MK2_-xjdqzJgAULhEzm-oVe7ganlePyk/view?usp=drive_link'target='_blank'rel='noopener noreferrer'>
+          <button className='buttons'>
+          Watch my elevator pitch
+          </button>
+         </a>
+         
      </div>
 
      <div className='app__footer'>
